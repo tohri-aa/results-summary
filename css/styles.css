@@ -48,17 +48,11 @@ body{
     border-radius: 24px;
     padding: 40px 40px 0px 40px;
     text-align: center;
-    width: 50%;
 }
 
 .result-header{
     color: var(--light-lavender);
     font-weight: 700;
-}
-
-.summary-container{
-    width: 50%;
-    padding: 40px 40px 0px 40px;
 }
 
 .result-body{
@@ -201,7 +195,6 @@ p{
 
 .r-img2{
     display: flex;
-    padding: 0px;
     margin: 0px;
 }
 
@@ -237,8 +230,6 @@ p{
 }
 
 .verbal{
-    display: flex;
-    align-items: center;
     background-color: hsla(166, 100%, 37%, 0.1);
     padding: 0px 8px 0px 8px;
     margin: 0px 0px 16px 0px;
@@ -254,22 +245,9 @@ p{
 
 .verbal .span-one{
     color: var(--green-teal);
-    margin-left: 8px;
-}
-
-.verbal .span-two{
-    color:  hsla(224, 30%, 27%, 0.4);
-}
-
-.ve-img2{
-    display: flex;
-    padding: 0px;
-    margin: 0px;
 }
 
 .visual{
-    display: flex;
-    align-items: center;
     background-color: hsla(234, 85%, 45%, 0.1);
     padding: 0px 8px 0px 8px;
     margin: 0px 0px 16px 0px;
@@ -285,17 +263,6 @@ p{
 
 .visual .span-one{
     color: var(--cobalt-blue);
-    margin-left: 8px;
-}
-
-.visual .span-two{
-    color:  hsla(224, 30%, 27%, 0.4);
-}
-
-.vi-img2{
-    display: flex;
-    padding: 0px;
-    margin: 0px;
 }
 
 button{
@@ -315,5 +282,3 @@ button > a{
 @media screen and (max-width: 480px) {
     .card-container{
     }
-
-} */
